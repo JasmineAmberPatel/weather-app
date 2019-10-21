@@ -1,0 +1,96 @@
+.forecast {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+};
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+};
+
+.date {
+    font-size: 14px;
+    margin-top: auto;
+    padding: 10px;
+  };
+
+  .temperature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+  };
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+  };
+
+  .more-details-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 25px
+  }
+
+  .weather-box {
+    box-shadow: 0px 12px 17px rgba(151, 149, 248, 0.2);
+  }
+
+  .search-button {
+    border-radius: 25px;  
+  }
+    
+.forecast-summaries {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.forecast-details__temperature-min {
+    font-size: 14px;
+    margin-top: auto;
+    padding: 5px;
+}
+
+.forecast-details__temperature-max {
+    font-size: 14px;
+    margin-top: auto;
+    padding: 5px;
+}
+
+.forecast-details__humidity {
+    font-size: 14px;
+    margin-top: auto;
+    padding: 5px;
+}
+
+.forecast-details__wind-speed {
+    font-size: 14px;
+    margin-top: auto;
+    padding: 5px;
+}
+
+.forecast-details__wind-direction {
+    font-size: 14px;
+    margin-top: auto;
+    padding: 5px;
+}
+
+.forecast-details__date {
+  font-size: 14px;
+  margin-top: auto;
+  padding: 5px;
+}
