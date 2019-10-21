@@ -2,7 +2,7 @@ import React from 'react';
 import LocationDetails from './location-details';
 import ForecastSummaries from './forecast-summaries';
 import ForecastDetails from './forecast-details';
-import '../styles/app.css';
+import '../styles/app.scss';
 import SearchForm from './search-form';
 
 class App extends React.Component {
